@@ -1,0 +1,1 @@
+int comdimi(4);

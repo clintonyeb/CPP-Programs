@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<title></title>
+	<link rel="stylesheet" href="mario.css">
+
+</head>
+<body>
+
+<audio autoplay>
+    <source src="marioTheme.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+<div class="demo">
+	<div class="demo-header">
+		<div class="demo-header-section">
+			<span>MARIO</span>
+			<span>040400</span>
+		</div>
+		<div class="demo-header-section">
+			<img class="demo-img-coin" src="https://s3.amazonaws.com/milespeebles.com/img/mario/coin.png">
+			<img class="demo-img-x" src="https://s3.amazonaws.com/milespeebles.com/img/mario/x.png">
+			<span class="demo-coins">30</span>
+		</div>
+		<div class="demo-header-section">
+			<span>WORLD</span>
+			<span>404</span>
+		</div>
+		<div class="demo-header-section">
+			<span>TIME</span>
+			<span class="demo-time">1158</span>
+		</div>
+	</div>
+	<div class="demo-img-brick demo-img-brick-top"></div>
+	Login
+	<div class="demo-wrap">
+		<div class="demo-text">
+
+			<span></span>
+			<form id="myForm">
+
+				username:
+				<input type="text" name="username"   /> password:
+				<input type="password" name="password"  />
+				<input type="button" value="submit" onclick="sendDataLogin() " />
+			</form>
+			<p></p>
+			<div id="result"></div>
+		</div>
+		<div class="demo-actors">
+			<img class="demo-img-mario" src="https://s3.amazonaws.com/milespeebles.com/img/mario/mario.png">
+			<img id="princess" style="display: none" class="demo-img-toad" src="https://s3.amazonaws.com/milespeebles.com/img/mario/toad.png" style="width: 28px;height: 44px;">
+
+		</div>
+	</div>
+
+	<div class="demo-img-brick demo-img-brick-bottom"></div>
+</div>
+<div class="demo-broken">
+	<span>GAME OVER</span>
+</div>
+
+
+</body>
+<script type="text/javascript" src="credentials.js"></script>
+<script>
+</script>
+</html>
